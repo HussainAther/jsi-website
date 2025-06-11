@@ -42,6 +42,19 @@ export default function Home() {
         </p>
       </section>
       
+      <section className="p-10 text-center bg-black mt-10">
+        <h3 className="text-2xl font-semibold text-cyan-400 mb-4">Secure Investor Portal</h3>
+        <p className="text-gray-300 max-w-2xl mx-auto">
+          Accredited investors may log in to access our business roadmap, pitch deck, patent portfolio, and financial forecasts.
+          Access is restricted to verified partners. Please request credentials through our official contact form.
+        </p>
+        <div className="mt-6">
+          <Link href="/investors/login" className="inline-block px-6 py-3 border border-cyan-400 rounded-lg hover:bg-cyan-400 hover:text-black transition duration-200">
+            Investor Login
+          </Link>
+        </div>
+      </section>
+      
       <footer className="text-center p-5 text-gray-400 border-t border-gray-700 bg-opacity-80 backdrop-blur-md mt-10">
         <p>&copy; {new Date().getFullYear()} Janus Sphere Innovations. All rights reserved.</p>
       </footer>
